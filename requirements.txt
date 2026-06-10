@@ -2,3 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
+<<<<<<< HEAD
+=======
+scikit-learn
+>>>>>>> ef841197f6aec523a5125314794819d9ba0991c7
