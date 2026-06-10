@@ -40,8 +40,9 @@ This repository contains all tasks completed during the **OASIS INFOBYTE Data Sc
 - **Models:** Linear, Ridge, Lasso, Random Forest, Gradient Boosting (**R² = 0.9832**)
 
 ---
-
 ## 📂 Repository Structure
+
+```
 OASIS-INFOBYTE/
 │
 ├── iris_classification.py
@@ -53,18 +54,25 @@ OASIS-INFOBYTE/
 │
 ├── car_price_prediction/
 │   ├── car_price_prediction.py
+│   ├── README.md
+│   ├── requirements.txt
 │   ├── data/
 │   └── plots/
 │
 ├── Task4_EmailSpamDetection/
 │   ├── email_spam_detection.py
+│   ├── README.md
+│   ├── requirements.txt
 │   ├── data/
 │   └── plots/
 │
 └── Task5_SalesPrediction/
-├── sales_prediction.py
-├── data/
-└── plots/
+    ├── sales_prediction.py
+    ├── README.md
+    ├── requirements.txt
+    ├── data/
+    └── plots/
+```
 
 ---
 
