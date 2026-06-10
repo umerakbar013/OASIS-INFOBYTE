@@ -3,42 +3,12 @@
 This repository contains all tasks completed during the **OASIS INFOBYTE Data Science Internship**.
 
 ---
-## 📂 Repository Structure
-
-```
-OASIS-INFOBYTE/
-│
-├── iris_classification.py
-├── unemployment_analysis.py
-├── requirements.txt
-├── README.md
-│
-├── data/                          ← Task 1 & 2 datasets
-├── plots/                         ← Task 1 & 2 plots
-│
-└── car_price_prediction/          ← Task 3
-    ├── car_price_prediction.py
-    ├── README.md
-    ├── requirements.txt
-    ├── data/
-    │   └── car_data.csv
-    └── plots/
-        ├── 01_selling_price_distribution.png
-        ├── 02_correlation_heatmap.png
-        ├── 03_price_scatter.png
-        ├── 04_fuel_type_boxplot.png
-        ├── 05_age_vs_price.png
-        ├── 06_model_comparison.png
-        ├── 07_actual_vs_predicted.png
-        ├── 08_feature_importance.png
-        └── 09_residuals.png
-```
 
 ## 📁 Projects
 
 ### ✅ Task 1 — Iris Flower Classification
 - **File:** `iris_classification.py`
-- **Description:** Classifies iris flowers into 3 species (Setosa, Versicolor, Virginica) using ML models trained on the classic Iris dataset.
+- **Description:** Classifies iris flowers into Setosa, Versicolor, Virginica using ML models.
 - **Models:** Logistic Regression, KNN, Random Forest
 
 ---
@@ -54,6 +24,47 @@ OASIS-INFOBYTE/
 - **Folder:** `car_price_prediction/`
 - **Description:** Predicts used car selling prices using regression models.
 - **Models:** Linear Regression, Random Forest, Gradient Boosting (**R² = 0.9661**)
+
+---
+
+### ✅ Task 4 — Email Spam Detection
+- **Folder:** `Task4_EmailSpamDetection/`
+- **Description:** Classifies emails as Spam or Ham using NLP and TF-IDF vectorization.
+- **Models:** Naive Bayes, Logistic Regression, Random Forest (**F1 = 0.9084**)
+
+---
+
+### ✅ Task 5 — Sales Prediction
+- **Folder:** `Task5_SalesPrediction/`
+- **Description:** Predicts product sales based on TV, Radio and Newspaper ad budgets.
+- **Models:** Linear, Ridge, Lasso, Random Forest, Gradient Boosting (**R² = 0.9832**)
+
+---
+
+## 📂 Repository Structure
+OASIS-INFOBYTE/
+│
+├── iris_classification.py
+├── unemployment_analysis.py
+├── requirements.txt
+├── README.md
+├── data/
+├── plots/
+│
+├── car_price_prediction/
+│   ├── car_price_prediction.py
+│   ├── data/
+│   └── plots/
+│
+├── Task4_EmailSpamDetection/
+│   ├── email_spam_detection.py
+│   ├── data/
+│   └── plots/
+│
+└── Task5_SalesPrediction/
+├── sales_prediction.py
+├── data/
+└── plots/
 
 ---
 
