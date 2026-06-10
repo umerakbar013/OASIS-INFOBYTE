@@ -3,6 +3,36 @@
 This repository contains all tasks completed during the **OASIS INFOBYTE Data Science Internship**.
 
 ---
+## 📂 Repository Structure
+
+```
+OASIS-INFOBYTE/
+│
+├── iris_classification.py
+├── unemployment_analysis.py
+├── requirements.txt
+├── README.md
+│
+├── data/                          ← Task 1 & 2 datasets
+├── plots/                         ← Task 1 & 2 plots
+│
+└── car_price_prediction/          ← Task 3
+    ├── car_price_prediction.py
+    ├── README.md
+    ├── requirements.txt
+    ├── data/
+    │   └── car_data.csv
+    └── plots/
+        ├── 01_selling_price_distribution.png
+        ├── 02_correlation_heatmap.png
+        ├── 03_price_scatter.png
+        ├── 04_fuel_type_boxplot.png
+        ├── 05_age_vs_price.png
+        ├── 06_model_comparison.png
+        ├── 07_actual_vs_predicted.png
+        ├── 08_feature_importance.png
+        └── 09_residuals.png
+```
 
 ## 📁 Projects
 
